@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+.score {
+    color: white;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+.play-ground{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    border: 3px solid yellow;
+    height: 400px;
+    width: 400px;
+}
