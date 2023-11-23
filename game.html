@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="scores">
+        <span id="yourscore">0</span>
+        <span>/</span>
+        <span id="compscore">0</span>
+    </div>
+    <div class="mainbody">
+    
+        <div class="yourarea">
+            <h1>You</h1>
+            <img id="rock-hand" class="i" src="./assets/rock-hand.png" alt="rock">
+            <img id="paper-hand" class="i" src="./assets/paper-hand.png" alt="paper">
+            <img id="scissor-hand" class="i" src="./assets/scissors-hand.png" alt="scissor">
+            <!-- <img id="img" src="./assets/rock-hand.png" alt="Your Choice">
+             <img id="img-comp" src="./assets/rock-hand.png" alt="Computer's Choice"> -->
+
+            <div class="playlogo">
+                <img id="rock-logo" src="./assets/rock-logo.png" alt="rock">
+                <img id="paper-logo" src="./assets/paper-logo.png" alt="paper">
+                <img id="scissors-logo" src="./assets/scissors-logo.png" alt="scissor">
+            </div>
+        </div>
+        <div class="vs">
+            <img class="vs" src="./assets/vs.png" alt="vs">
+        </div>
+        <div class="comparea" >
+            <h1>Comp</h1>
+            <img id="rock-comp" class="i" src="./assets/rock-hand.png" alt="rock">
+            <img id="paper-comp" class="i" src="./assets/paper-hand.png" alt="paper">
+            <img id="scissor-comp" class="i" src="./assets/scissors-hand.png" alt="scissor">
+        </div>
+    </div>
+    <div id="winner">
+        <h1 id="you">You <span id="win"></span><span id="game">The Game</span></h1>
+        <input type="button" value="Play again" id="playagain">
+    </div>
+</body>
+<script src="game.js"></script>
+</html>
